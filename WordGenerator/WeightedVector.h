@@ -47,7 +47,8 @@ T& WeightedVector<T>::operator[](float value) {
 
 template <typename T>
 T& WeightedVector<T>::getRandom() {
-	return (*this)[(float(rand()) / float((RAND_MAX-1)+ 1)) * size()];
+	float random = float(rand()) / (float(RAND_MAX) + 1.0f);
+	return (*this)[random * size()];
 }
 
 template <typename T>
