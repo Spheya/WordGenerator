@@ -6,7 +6,7 @@
 #include <iterator>
 #include <ctime>
 
-int main() {
+int main(int argc, char **argv) {
 
 	Generator gen(7);
 
@@ -23,7 +23,11 @@ int main() {
 
 	gen.train(names);
 
-	for (int i = 0; i < 29; i++)
+	int word_count = std::atoi(argv[argc-1]);
+	if (word_count < 1)
+		word_count = 29;
+
+	for (int i = 0; i < word_count; i++)
 		std::cout << gen.nextNew() << std::endl;
 
 	int pause;
