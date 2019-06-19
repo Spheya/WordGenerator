@@ -29,7 +29,4 @@ int main(int argc, char **argv) {
 
 	for (int i = 0; i < word_count; i++)
 		std::cout << gen.nextNew() << std::endl;
-
-	int pause;
-	std::cin >> pause;
 }
