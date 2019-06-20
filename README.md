@@ -13,6 +13,10 @@ cd WordGenerator
 make
 ```
 
+## Pre-Built Apps
+
+The `bin` directory has a Windows .exe file, and a `wordgen` binary for `x86` that may run on your machine.  Give them a shot if all you want to to play with some word lists.
+
 # Demo
 
 have fun!
