@@ -1,8 +1,8 @@
 ## Download
-You can download the program <a href = "http://www.mediafire.com/file/8paq91t88nq0wbr/WordGenerator.zip/file">here</a>
+You can [download the program here](https://github.com/Spheya/WordGenerator/blob/master/bin/WordGenerator.exe?raw=true)
 
 ## The training data
-The words used as training data come from <a href = "https://github.com/dwyl/english-words">here</a>
+The words used as training data come from [here](https://github.com/dwyl/english-words)
 
 ## Build
 
