@@ -23,13 +23,10 @@ int main(int argc, char **argv) {
 
 	gen.train(names);
 
-	int word_count = (argc == 0) ? 29 : std::atoi(argv[0]);
+	int word_count = (argc == 0) ? 29 : std::atoi(argv[1]);
 	if (word_count < 1)
 		word_count = 29;
 
 	for (int i = 0; i < word_count; i++)
 		std::cout << gen.nextNew() << std::endl;
-	
-	int pause;
-	std::cin >> pause;
 }
